@@ -60,8 +60,8 @@ Z = [[calcDefuzzificatedValue(tempFuncWeights(i), rainFuncWeights(j), windFuncWe
 
 fig = plt.figure()
 ax = plt.axes(projection='3d')
-ax.set_xlabel("Temperature")
-ax.set_ylabel("Rain")
-ax.set_zlabel("How hard to go on a trip with WindSpeed={}".format(windSpeed))
+ax.set_xlabel("Temperature, degrees")
+ax.set_ylabel("Rain, drops/s")
+ax.set_zlabel("How hard to go on a trip with {}, m/s wind speed".format(windSpeed))
 ax.contour3D(X, Y, Z, 100, cmap='viridis')
 plt.show()
