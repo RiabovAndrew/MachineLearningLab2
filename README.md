@@ -4,7 +4,7 @@
 
 ## Solution
 
-1) Let's create **Crisp Sets** with **Terms**. Also add **deffuzification** multipliers for every **Crisp Set**.
+1) Let's create **Crisp Sets** with **Linguistic variables**. Also add **Mamdani inferencing** multipliers for every **Crisp Set**.
 ```
 Temperature = ["Cold", "Medium", "Hot"]         # degree
 TemperatureMultiplier = [3, 1, 3]
