@@ -52,7 +52,7 @@ def FoM(tuple):                # First of Maximum
         return (maxValue, 1)
     return (maxValue, 2)
 ```
-6) Finally, write the defuzzification function using _FoM (First of Maximum)_ method.
+6) Finally, write the defuzzification function using _FoM (First of Maximum)_ method. Also this defuzzification function works with **Mamdani inferencing** shown in p.1.
 ```
 def calcDefuzzificatedValue(w1, w2, w3):
     res1 = FoM(w1)[0] * TemperatureMultiplier[FoM(w1)[1]]
